@@ -2,5 +2,6 @@ import random
 
 
 def create_list(count):
-    list = random.sample(list(range(1, 100)), count)
-    return list
+    empty_list=list(range(1,101))
+    list_random = random.sample(empty_list, count)
+    return list_random
