@@ -1,0 +1,5 @@
+sentence = input("Sentence is")
+list_sentence=sentence.split()
+max_word = max(list_sentence,key=len)
+min_word = min(list_sentence,key=len)
+print(f"Min word is {min_word} it's len is {len(min_word)}\nMax word is {max_word} it's len is {len(max_word)}")
